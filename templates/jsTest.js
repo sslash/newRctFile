@@ -18,8 +18,9 @@ describe('__REACT_CLASS__', () => {
     });
 
     it('should render', () => {
+        const props = {};
         const renderer = TestUtils.createRenderer();
-        renderer.render(<__REACT_CLASS__ />);
+        renderer.render(<__REACT_CLASS__ {...props}/>);
         const result = renderer.getRenderOutput();
         expect(result.type).toBe('div');
         expect(result).toEqual(<div></div>);

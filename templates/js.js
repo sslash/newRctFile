@@ -1,12 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 
-
 export default class __REACT_CLASS__ extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
 
     static propTypes = {
     }
@@ -14,7 +8,12 @@ export default class __REACT_CLASS__ extends Component {
     static defaultProps = {
     }
 
-    render() {
+    constructor (props) {
+        super(props);
+        this.state = {};
+    }
+
+    render () {
         return (
             <div></div>
         );
