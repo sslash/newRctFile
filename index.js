@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 //
 // Simple tool to create a React component with accompanying Jest test
 // The generated files are oppinionated

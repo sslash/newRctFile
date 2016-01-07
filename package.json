@@ -1,6 +1,6 @@
 {
     "name": "newreactfile",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple Node tool to create a React component with accompanying (Jest) test",
     "main": "index.js",
     "repository": {
@@ -15,7 +15,11 @@
         "terminal"
     ],
     "scripts": {
+        "start": "node index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "newreactfile": "./index.js"
     },
     "author": "Michael Gunnulfsen",
     "license": "ISC",
